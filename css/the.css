@@ -1,0 +1,133 @@
+#home { 
+    background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
+    height: 1000px; 
+    margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#home article { 
+   height: 458px; 
+   position: absolute; 
+   text-align: left; 
+   width: 55%;
+   padding-left: 38%;
+}
+h1 {
+   font-size: 48px;
+}
+#bmx { 
+   background: url(../images/bmx-bg.jpg) 50% 0 no-repeat fixed; 
+   min-height: 1000px; 
+   height: 1000px; 
+   margin: 0 auto; 
+   width: 100%; 
+   max-width: 1920px; 
+   position: relative; 
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+ 
+#bmx article { 
+   height: 458px; 
+   position: absolute; 
+   text-align: center; 
+   padding-left: 260px;
+   top: 250px; 
+   width: 100%; 
+}
+#lc {
+   background: url(../images/lc-bg.jpg) 50% 0 repeat fixed; min-height: 1000px;
+   height: 1000px;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1920px;
+   position: relative;
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#lc article {
+   height: 458px;
+   position: absolute;
+   text-align: center;
+   top: 50px;
+   width: 100%;
+}
+#lcm {
+   background: url(../images/lcm-bg.png) 50% 0 no-repeat fixed;
+   height: 1000px;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1920px;
+   position: relative;
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#lcm article {
+   height: 458px;
+   position: absolute;  
+   text-align: center;    
+   top: 150px;      
+   width: 100%;        
+}
+#nerds {
+   background: url(../images/nerds-bg.jpg) 50% 0 no-repeat fixed;
+   height: 1000px;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1920px;
+   position: relative;
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#nerds article {
+   height: 458px;
+   position: absolute;  
+   text-align: center;    
+   top: 350px;      
+   width: 100%;        
+}
+#family {
+   background: url(../images/family-bg.jpg) 50% 0 no-repeat fixed;
+   height: 1000px;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1920px;
+   position: relative;
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#family article {
+   height: 458px;
+   position: absolute;  
+   text-align: center;    
+   top: 350px;      
+   width: 100%;        
+}
+#contact {
+   background: url(../images/home-bg.png) 50% 0 no-repeat fixed;
+   height: 1000px;
+   margin: 0 auto;
+   width: 100%;
+   max-width: 1920px;
+   position: relative;
+   -webkit-box-shadow: 0 0 50px rgba(0,0,0,0.8);
+   box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#contact article {
+   height: 458px;
+   position: absolute;  
+   text-align: right;    
+   top: 250px;      
+   width: 55%;
+   padding-left:40%;
+}
+
