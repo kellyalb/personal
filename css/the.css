@@ -69,7 +69,7 @@ h1 {
    height: 458px;
    position: absolute;
    text-align: right;
-   top: 800px;
+   top: 750px;
    width: 100%;
 }
 #lcm {
@@ -137,8 +137,9 @@ h1 {
    height: 458px;
    position: absolute;
    text-align: center;
-   top: 10px;
+   top: 150px;
    width: 100%;
+   color: white;
 }
 #family article {
    height: 458px;
@@ -166,4 +167,42 @@ h1 {
    width: 55%;
    padding-left:40%;
 }
-
+@media only screen and (max-width: 950px), only screen and (max-device-width: 950px) {
+#home {
+   background: url(../images/home-bg.png) 50% 0 no-repeat;
+}
+#bmx {
+   background: url(../images/bmx-bg.jpg) 50% 0 no-repeat;
+}
+#lc  {
+   background: url(../images/lc-bg.jpg) 50% 0 no-repeat;
+   min-height: 950px;
+   height: 950px;
+}
+#lc content {
+   top: 50px;
+}
+#lcm  {
+   background: url(../images/lcm-bg.png) 50% 0 no-repeat;
+}
+#lcm content {
+   top: 650px;
+}
+#nerds  {
+   background: url(../images/nerds-bg.jpg) 50% 0 no-repeat;
+}
+#nerds content {
+   color: black;
+   top: 500px;
+}
+#family  {
+   background: url(../images/family-bg.jpg) 50% 0 no-repeat;
+}  
+#contact  {
+   background: #fff url(../images/home-bg.png) 50% 0 no-repeat;
+   height: 850px;
+}
+#contact article {
+   top: 0px;
+}
+}
