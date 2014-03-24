@@ -96,7 +96,7 @@ h1 {
    text-align: left;    
    top: 75px;      
    width: 100%;
-   padding-left:25%;;
+   padding-left:10%;;
 }
 #nerds {
    background: url(../images/nerds-bg.jpg) 50% 0 no-repeat fixed;
@@ -136,16 +136,15 @@ h1 {
 #family content {
    height: 458px;
    position: absolute;
-   text-align: left;
-   padding-left: 60px;
-   top: 250px;
-   width: 50%;
+   text-align: center;
+   top: 10px;
+   width: 100%;
 }
 #family article {
    height: 458px;
    position: absolute;  
    text-align: center;    
-   top: 350px;      
+   top: 400px;      
    width: 100%;        
 }
 #contact {
