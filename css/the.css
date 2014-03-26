@@ -1,3 +1,6 @@
+body {
+    display: none;
+}
 #home { 
     background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
     height: 1000px; 
@@ -38,6 +41,7 @@ h1 {
    top: 450px;
    width: 50%;
    color:white;
+   text-shadow: 2px 2px 5px #000;
 }
 #bmx article { 
    height: 458px; 
@@ -64,6 +68,7 @@ h1 {
    padding-left: 60px;
    top: 250px;
    width: 50%;
+   text-shadow: 2px 2px 5px #FFF;
 }
 #lc article {
    height: 458px;
@@ -89,6 +94,7 @@ h1 {
    top: 400px;
    width: 65%;
    padding-left: 30%;
+   text-shadow: 2px 2px 5px #FFF;
 }
 #lcm article {
    height: 458px;
@@ -115,6 +121,7 @@ h1 {
    top: 400px;
    width: 100%;
    color: white;
+   text-shadow:2px 2px 5px #000;
 }
 #nerds article {
    height: 458px;
@@ -134,12 +141,13 @@ h1 {
    box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 #family content {
-   height: 458px;
+   height: 250px;
    position: absolute;
    text-align: center;
    top: 150px;
    width: 100%;
    color: white;
+   text-shadow: 2px 2px 5px #000;
 }
 #family article {
    height: 458px;
@@ -192,7 +200,7 @@ h1 {
    background: url(../images/nerds-bg.jpg) 50% 0 no-repeat;
 }
 #nerds content {
-   color: black;
+   color: white;
    top: 500px;
 }
 #family  {

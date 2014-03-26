@@ -13,9 +13,20 @@ $(document).ready(function(){
     $bgobj.css({ backgroundPosition: coords });                                                                  }); 
 });    
 });
-/* 
- * Create HTML5 elements for IE's sake
-  */
 
+/* 
+* Create HTML5 elements for IE's sake
+*/
   document.createElement("article");
   document.createElement("section");
+
+/* 
+* Fade in when ready
+*/
+(function($) {
+
+    $(window).load(function() {
+          $(document.body).fadeIn(2000);
+            });
+
+})(jQuery);
