@@ -23,10 +23,14 @@ $(document).ready(function(){
 /* 
 * Fade in when ready
 */
+function viewNext(){
+      $('body').html('<img src="images/loading.gif" />').load("index.html");
+}
+
 (function($) {
 
     $(window).load(function() {
-          $(document.body).fadeIn(2000);
+          $('.pages').fadeIn(2000);
             });
 
 })(jQuery);

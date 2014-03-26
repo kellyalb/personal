@@ -1,5 +1,9 @@
 body {
-    display: none;
+    background: url(../images/loading.gif) 50% 50% no-repeat fixed;
+    
+}
+.pages {
+    display:none;
 }
 #home { 
     background: url(../images/home-bg.png) 50% 0 no-repeat fixed; 
