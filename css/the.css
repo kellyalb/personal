@@ -81,6 +81,9 @@ h1 {
    top: 750px;
    width: 100%;
 }
+#lc img {
+   padding-right: 65px;
+}
 #lcm {
    background: url(../images/lcm-bg.png) 50% 0 no-repeat fixed;
    height: 1000px;
