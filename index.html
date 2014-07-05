@@ -13,6 +13,15 @@
 <script src="js/script.js"></script>
 </head>
 <body>
+
+<a id="home-link" href="#">Home</a> | 
+<a id="bmx-link" href="#">BMX</a> | 
+<a id="lc-link" href="#">left-click</a> | 
+<a id="lcm-link" href="#">Last Call</a> | 
+<a id="nerds-link" href="#">NERDs</a> | 
+<a id="family-link" href="#">Family</a> | 
+<a id="contact-link" href="#">Contact</a> 
+
 <!-- Section #1 -->
 <section id="home" data-type="background" data-speed="30" class="pages">     
   <article>
@@ -21,7 +30,7 @@
 
   <p>Kelly Albrecht is an expert Linux Server Admin, having been responsible for several servers where over 100 sites and services are run and maintained.</p>
 
-  <p>As a Web Developer and Project Manager, Kelly has implemented web-based IT solutions for over 8 years and has extensive experience in all aspects of website design and development.</p>
+  <p>As a Web Developer and Project Manager, Kelly has implemented web-based IT solutions for over <?php $year = date("Y"); $founded = 2005; $sum = $year - $founded; print($sum); ?> years and has extensive experience in all aspects of website design and development.</p>
 
   <p>As an Entrepreneur, Kelly Albrecht has founded several businesses including the <a href="http://www.left-click.us" target="_blank">left-click IT strategy and consulting</a> firms as well as the <a href="http://lastcallmedia.com" target="_blank">Last Call Media web development agency</a>.</p>
 
@@ -29,6 +38,15 @@
 
   <p>Kelly graduated Summa Cum Laude with departmental honors in Philosophy from the <a href="http://umass.edu" target="_blank">University of Massachusetts</a>.</p>
   </article>
+<div id="menu">
+<a id="home-link" href="#">Home</a> |
+<a id="bmx-link" href="#">BMX</a> |
+<a id="lc-link" href="#">left-click</a> |
+<a id="lcm-link" href="#">Last Call</a> |
+<a id="nerds-link" href="#">NERDs</a> |
+<a id="family-link" href="#">Family</a> |
+<a id="contact-link" href="#">Contact</a>
+</div>
 </section>   
 <!-- Section #2 -->
 <section id="bmx" data-type="background" data-speed="30" class="pages">
@@ -37,7 +55,8 @@
 </section>
 <!-- Section #3 -->
 <section id="lc" data-type="background" data-speed="30" class="pages">
-   <content><p><h1>I started an IT Strategy firm because I like solving problems.</h1></p></content><article><a href="http://www.left-click.us"><img src="images/lc.png" /></a></article>
+<a name="view-lc"/>
+<content><p><h1>I started an IT Strategy firm because I like solving problems.</h1></p></content><article><a href="http://www.left-click.us"><img src="images/lc.png" /></a></article>
 </section>
 <!-- Section #4 -->
 <section id="lcm" data-type="background" data-speed="30" class="pages">
@@ -54,7 +73,7 @@
   </section>
 <!-- Section #7 -->
 <section id="contact" data-type="background" data-speed="30" class="pages">
-  <article><br><br><p>Open Source software is inherently inclusive and collaborative. The vast majority of participation is driven by intrinsic motives for personal growth, relationships, and helping others. It is an endeavor that creates actual happiness, dedication, and community. As a society, this is our best work.</p><p><strong>-Kelly Albrecht</strong><br><br><p><h1>Let's build something.</h1></p></h1></p><br><br><br><a href="https://twitter.com/ksalbrecht"><img src="images/twitter.png" /></a><a href="https://facebook.com/lcadvanced"><img src="images/fb.png" /></a><a href="https://drupal.org/marketplace/last-call-media"><img src="images/drupal.png" /></a></article>
+  <article id="contact-me"><br><br><p>Open Source software is inherently inclusive and collaborative. The vast majority of participation is driven by intrinsic motives for personal growth, relationships, and helping others. It is an endeavor that creates actual happiness, dedication, and community. As a society, this is our best work.</p><p><strong>-Kelly Albrecht</strong><br><br><p><h1>Let's build something.</h1></p></h1></p><br><br><br><a href="https://twitter.com/ksalbrecht"><img src="images/twitter.png" /></a><a href="https://facebook.com/lcadvanced"><img src="images/fb.png" /></a><a href="https://drupal.org/marketplace/last-call-media"><img src="images/drupal.png" /></a></article>
   </section>
 </body>
 </html>
